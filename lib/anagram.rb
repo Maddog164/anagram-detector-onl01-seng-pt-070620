@@ -23,6 +23,7 @@ class Anagram
         binding.pry
       end
     end #do
+    return hold_result
   end
 
 
