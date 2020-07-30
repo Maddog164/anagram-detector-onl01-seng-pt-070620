@@ -15,11 +15,13 @@ class Anagram
     #return the original values of the matches
     #word = @word.split("")
     #ret_word = ""
-    array.each.detect do |array_word|
+    hold_result = []
+    array.each do |array_word|
       #binding.pry
-      array_word.split("").sort == @word.split("").sort
-
-      end #do
+      if array_word.split("").sort == @word.split("").sort
+        hold_result << array_word
+      end
+    end #do
   end
 
 
