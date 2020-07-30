@@ -14,6 +14,7 @@ class Anagram
       array_word.split("").sort == @word.split("").sort
 
       end #do
+  end
 
 
 
