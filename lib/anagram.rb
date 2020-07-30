@@ -17,7 +17,7 @@ class Anagram
     #ret_word = ""
     hold_result = []
     array.each do |array_word|
-      #binding.pry
+      binding.pry
       if array_word.split("").sort == @word.split("").sort
         hold_result << array_word
         binding.pry
