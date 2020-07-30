@@ -3,6 +3,9 @@ class Anagram
 
   attr_accessor :word
 
+  def initialize(word)
+  end
+
   def match(array)
     #turn @word into a sorted array of letters
     #turn each word in array into a sorted array of letters
